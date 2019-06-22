@@ -10,7 +10,7 @@ node {
     stage('Build image') {
         /* This builds the actual image */
 
-        app = docker.build("hhvelascoa/nodeapp")
+        app = docker.build("hhvelascoa/nodeappv2")
     }
 
     stage('Test image') {
